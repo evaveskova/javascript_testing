@@ -1,4 +1,4 @@
-// const caesarCipher = require('./caesarCipher');
+const caesarCipher = require('./caesarCipher');
 
 test('returns the original string when the shifter is 0', () => {
   expect(caesarCipher('microverse', 0)).toMatch('microverse');
