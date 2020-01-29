@@ -8,13 +8,13 @@ const analyze = (arr) => {
     const arrMin = Math.min.apply(0, arr);
     const arrMax = Math.max.apply(0, arr);
     const arrLength = arr.length;
-    const obj = {
+    obj = {
       average: arrAverage,
       min: arrMin,
       max: arrMax,
-      length: arrLength
+      length: arrLength,
+    };
     }
   return obj;
-  }
-}
+};
 module.exports = analyze;
