@@ -4,7 +4,6 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "webpack --config webpack.config.js",
     "test": "jest"
   },
   "repository": {
