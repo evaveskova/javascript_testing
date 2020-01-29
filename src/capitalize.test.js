@@ -1,4 +1,4 @@
-// const capitalize = require('./capitalize');
+const capitalize = require('./capitalize');
 
 test('capitalizes any word', () => {
   expect(capitalize('cat')).toMatch('Cat');

@@ -1,9 +1,9 @@
-// const reverseString = require('./reverseString');
+const reverseString = require('./reverseString');
 
 test('reverses any string', () => {
-  expect(capitalize('cat')).toMatch('tac');
+  expect(reverseString('cat')).toMatch('tac');
 });
 
 test('reverses any sentence', () => {
-  expect(capitalize('this is a sentence')).toMatch('ecnetnes a si siht');
+  expect(reverseString('this is a sentence')).toMatch('ecnetnes a si siht');
 });
