@@ -14,7 +14,7 @@ const analyze = (arr) => {
       max: arrMax,
       length: arrLength,
     };
-    }
+  }
   return obj;
 };
 module.exports = analyze;
